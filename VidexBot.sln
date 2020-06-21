@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VidexBot", "src\VidexBot.csproj", "{C20EF918-2158-41B3-9186-8D6FC320D22A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08724A1E-3533-4CEE-87CA-0CF08A64AD6C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C20EF918-2158-41B3-9186-8D6FC320D22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20EF918-2158-41B3-9186-8D6FC320D22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20EF918-2158-41B3-9186-8D6FC320D22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20EF918-2158-41B3-9186-8D6FC320D22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA79F96-DB5B-414E-A204-A39DA6FDC852}
+	EndGlobalSection
+EndGlobal

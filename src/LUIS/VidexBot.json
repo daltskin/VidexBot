@@ -1,0 +1,161 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "CheckBalance",
+      "features": []
+    },
+    {
+      "name": "CheckDateTime",
+      "features": []
+    },
+    {
+      "name": "CloseGates",
+      "features": []
+    },
+    {
+      "name": "LatchGates",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "OpenGates",
+      "features": []
+    },
+    {
+      "name": "SignalStrength",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "close gates",
+      "intent": "CloseGates",
+      "entities": []
+    },
+    {
+      "text": "close the gates",
+      "intent": "CloseGates",
+      "entities": []
+    },
+    {
+      "text": "do i need to top up?",
+      "intent": "CheckBalance",
+      "entities": []
+    },
+    {
+      "text": "how much credit is left?",
+      "intent": "CheckBalance",
+      "entities": []
+    },
+    {
+      "text": "how much credit is there",
+      "intent": "CheckBalance",
+      "entities": []
+    },
+    {
+      "text": "how much signal is there",
+      "intent": "SignalStrength",
+      "entities": []
+    },
+    {
+      "text": "keep the gates open",
+      "intent": "LatchGates",
+      "entities": []
+    },
+    {
+      "text": "latch gates",
+      "intent": "LatchGates",
+      "entities": []
+    },
+    {
+      "text": "latch gates open",
+      "intent": "LatchGates",
+      "entities": []
+    },
+    {
+      "text": "latch the gates",
+      "intent": "LatchGates",
+      "entities": []
+    },
+    {
+      "text": "open gates",
+      "intent": "OpenGates",
+      "entities": []
+    },
+    {
+      "text": "open the gates",
+      "intent": "OpenGates",
+      "entities": []
+    },
+    {
+      "text": "please close gates",
+      "intent": "CloseGates",
+      "entities": []
+    },
+    {
+      "text": "please open the gates",
+      "intent": "OpenGates",
+      "entities": []
+    },
+    {
+      "text": "shall i top up?",
+      "intent": "CheckBalance",
+      "entities": []
+    },
+    {
+      "text": "shut gates",
+      "intent": "CloseGates",
+      "entities": []
+    },
+    {
+      "text": "unlatch the gates",
+      "intent": "CloseGates",
+      "entities": []
+    },
+    {
+      "text": "what date is it?",
+      "intent": "CheckDateTime",
+      "entities": []
+    },
+    {
+      "text": "what is the date and time?",
+      "intent": "CheckDateTime",
+      "entities": []
+    },
+    {
+      "text": "what is the signal strength like",
+      "intent": "SignalStrength",
+      "entities": []
+    },
+    {
+      "text": "what is the signal strength?",
+      "intent": "SignalStrength",
+      "entities": []
+    },
+    {
+      "text": "what time is it?",
+      "intent": "CheckDateTime",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "VidexBot",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
