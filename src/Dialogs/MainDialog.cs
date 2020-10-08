@@ -114,7 +114,7 @@ namespace VidexBot.Dialogs
             }
             else
             {
-                var msgText = "Nope, that was the wrong magic word.  I'm not opening the gates for you!";
+                var msgText = $"Nope, {stepContext.Context.Activity.Text} is not the magic word.  I'm not opening the gates.";
                 await stepContext.Context.SendActivityAsync(MessageFactory.Text(msgText, msgText, InputHints.IgnoringInput), cancellationToken);
             }
 
